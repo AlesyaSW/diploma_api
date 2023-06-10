@@ -1,11 +1,8 @@
-import os
 import allure
 from allure_commons.types import Severity
-from dotenv import load_dotenv
 import schemas.schemas_reqres
 from api.reqres import get_list_users, post_create_users, update_user, \
-    get_user, delete_user, post_login_user, post_register_user
-import requests
+    get_user, delete_user, post_register_user
 from pytest_voluptuous import S
 from models import data_regres
 from models.data_regres import base_url

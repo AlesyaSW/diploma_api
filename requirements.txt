@@ -6,4 +6,3 @@ selenium~=4.9.1
 requests~=2.31.0
 python-dotenv~=1.0.0
 voluptuous~=0.13.1
-pytest-voluptuous-1.2.0
