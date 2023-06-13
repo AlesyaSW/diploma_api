@@ -21,6 +21,7 @@ def test_list_users():
         assert response.json()['page'] == data_regres.page
         assert len(response.json()['data']) != 0
 
+
 @allure.tag('api')
 @allure.severity(Severity.BLOCKER)
 @allure.label('owner', 'Alesya')
@@ -36,7 +37,6 @@ def test_create_user(name=data_regres.create_name, job=data_regres.create_job):
         assert response.json()['job'] == job
     with allure.step('Проверка соответствия ответа схеме'):
         assert response.json() == S(schemas.schemas_reqres.create_user_schema)
-
 
 
 @allure.tag('api')
@@ -87,7 +87,6 @@ def test_delete_user(id_user=data_regres.user_id_delete):
         response = delete_user(id_user)
     with allure.step('Проверка соответствия статус-коду'):
         assert response.status_code == 204
-
 
 
 @allure.tag('api')

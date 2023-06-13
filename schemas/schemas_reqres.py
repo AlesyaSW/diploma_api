@@ -1,7 +1,7 @@
 from voluptuous import Schema, PREVENT_EXTRA
 
-
-create_user_schema = Schema({
+create_user_schema = Schema(
+    {
         "name": str,
         "job": str,
         "id": str,
