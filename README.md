@@ -26,14 +26,20 @@
 
 ## Сборка в Jenkins
 [Cсылка на проект в Jenkins](https://jenkins.autotests.cloud/job/Requests_API/)
+<p align="left">
+  <img width="90%" src="logo/jenkins_job.png"/>
+</p>
+
 
 ## Allure report
 [Ссылка на отчет](https://jenkins.autotests.cloud/job/Requests_API/4/allure/)
-
+##### После прохождения тестов, результаты можно посмотреть в Allure отчете, где так же содержится ссылка на Jenkins.
 <p align="left">
   <img width="90%" src="logo/screenAllure.png"/>
 </p>
 
+##### Во вкладке Graphs можно посмотреть графики о прохождении тестов, по их приоритезации, по времени прохождения и др.
+
 <p align="left">
-  <img width="90%" src="logo/allureresults2.png"/>
+  <img width="90%" src="logo/allure_graphs.png"/>
 </p>
