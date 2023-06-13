@@ -2,7 +2,7 @@ base_url = 'https://reqres.in'
 #  test_list_users
 page = 2
 # test_create_user
-create_name = 'Elena'
+create_name = 'Alesya'
 create_job = 'QA engineer'
 # test_get_user
 id_user = 6
