@@ -60,7 +60,7 @@ def test_get_user(id_user=data_regres.id_user):
 
 @allure.tag('api')
 @allure.severity(Severity.CRITICAL)
-@allure.label('owner', 'Elena0808')
+@allure.label('owner', 'Alesya')
 @allure.description('Обновление пользователей')
 @allure.feature('Проверка обновления id, name, job пользователя')
 @allure.link(f'{base_url}/api/users/{data_regres.id_user_update}')
@@ -78,7 +78,7 @@ def test_update_user(id_user=data_regres.id_user_update, name=data_regres.name_u
 
 @allure.tag('api')
 @allure.severity(Severity.CRITICAL)
-@allure.label('owner', 'Elena0808')
+@allure.label('owner', 'Alesya')
 @allure.description('Удаление пользователей')
 @allure.feature('Проверка удаления пользователя')
 @allure.link(f'{base_url}/api/users/{data_regres.user_id_delete}')
@@ -92,7 +92,7 @@ def test_delete_user(id_user=data_regres.user_id_delete):
 
 @allure.tag('api')
 @allure.severity(Severity.CRITICAL)
-@allure.label('owner', 'Elena0808')
+@allure.label('owner', 'Alesya')
 @allure.description('Авторизация пользователя')
 @allure.feature('Проверка ошибки авторизации пользователя без передачи пароля в теле запроса')
 @allure.link(f'{base_url}/api/register')
