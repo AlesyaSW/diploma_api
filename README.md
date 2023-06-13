@@ -23,6 +23,7 @@
 <code><img width="6%" title="Jenkins" src="logo/jenkins.svg"></code>
 <code><img width="6%" title="Allure" src="logo/allure.svg"></code>
 <code><img width="6%" title="Allure" src="logo/allure_testops.png"></code>
+<code><img width="6%" title="Allure" src="logo/jira.png"></code>
 
 </p>
 
@@ -59,3 +60,10 @@
 - Добавлять ручные тесты и т.д
 
 ![This is an image](logo/testopsresults.png)
+
+<!-- Jira -->
+
+### <img width="5%" title="Jira" src="logo/jira.png"> Интеграция с Jira
+##### Настроив через Allure TestOps интеграцию с Jira, в тикет можно пробросить результат прохождение тестов и список тест-кейсов из Allure
+
+![This is an image](logo/jira_results.png)
