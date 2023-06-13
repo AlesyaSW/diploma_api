@@ -22,16 +22,15 @@
 <code><img width="6%" title="GitHub" src="logo/github.png"></code>
 <code><img width="6%" title="Jenkins" src="logo/jenkins.svg"></code>
 <code><img width="6%" title="Allure" src="logo/allure.svg"></code>
+<code><img width="6%" title="Allure" src="logo/allure_testops.png"></code>
+
 </p>
 
-## Сборка в Jenkins
-[Cсылка на проект в Jenkins](https://jenkins.autotests.cloud/job/Requests_API/)
-<p align="left">
-  <img width="90%" src="logo/jenkins_job.png"/>
-</p>
+## <img width="3%" title="Jenkins" src="logo/jenkins.svg">Сборка в Jenkins
+[JOB](https://jenkins.autotests.cloud/job/Requests_API/)
 
 
-## Allure report
+## <img width="3%" title="Jenkins" src="logo/allure.svg">Allure report
 [Ссылка на отчет](https://jenkins.autotests.cloud/job/Requests_API/4/allure/)
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете, где так же содержится ссылка на Jenkins.
 <p align="left">
@@ -43,3 +42,18 @@
 <p align="left">
   <img width="90%" src="logo/allure_graphs.png"/>
 </p>
+
+<!-- Allure TestOps -->
+
+### <img width="3%" title="Allure TestOps" src="logo/allure_testops.png"> Интеграция с Allure TestOps
+### [Dashboard](https://allure.autotests.cloud/project/3378/dashboards)
+##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
+![This is an image](logo/testops_dashboard.png)
+
+#### Во вкладке со сьютами, мы можем:
+- Управлять всеми тест-кейсами или с каждым отдельно
+- Перезапускать каждый тест отдельно от всех тестов
+- Настроить интеграцию с Jira
+- Добавлять ручные тесты и т.д
+
+![This is an image](logo/testopsresults.png)
