@@ -28,7 +28,7 @@
 </p>
 
 ## <img width="3%" title="Jenkins" src="logo/jenkins.svg">Сборка в Jenkins
-[JOB](https://jenkins.autotests.cloud/job/Requests_API/)
+[JOB](https://jenkins.autotests.cloud/job/Students/job/Requests_API/)
 <p align="left">
   <img width="90%" src="logo/jenkins_job.png"/>
 </p>
