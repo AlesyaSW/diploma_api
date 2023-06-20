@@ -34,7 +34,7 @@
 </p>
 
 ## <img width="3%" title="Jenkins" src="logo/allure.svg">Allure report
-[Ссылка на отчет](https://jenkins.autotests.cloud/job/Requests_API/4/allure/)
+[Ссылка на отчет](https://jenkins.autotests.cloud/job/Students/job/Requests_API/allure/)
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете, где так же содержится ссылка на Jenkins.
 <p align="left">
   <img width="90%" src="logo/screenAllure.png"/>
